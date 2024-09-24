@@ -1,7 +1,16 @@
 .App {
-  max-width: 600px;
+  background-color: rgb(68, 65, 92);
+  width: 100vw;
+  height: 100vh;
   margin: 0 auto;
   padding: 20px;
+  box-sizing: border-box;
+
+
+}
+
+h1 {
+  text-align: center;
 }
 
 form {
@@ -19,6 +28,10 @@ textarea {
 button {
   padding: 10px;
   margin-right: 5px;
+  background-color: rgb(30, 179, 38);
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
 }
 
 ul {
@@ -29,5 +42,5 @@ ul {
 li {
   margin-bottom: 20px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #09b111;
 }
